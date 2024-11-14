@@ -17,7 +17,7 @@ public class meteroidSpwaner : MonoBehaviour
         InvokeRepeating("A", 0, 1);
         InvokeRepeating("B", 0, 1.5f);
         InvokeRepeating("C", 0, 1.5f);
-        InvokeRepeating("D", 0, 2f);
+        InvokeRepeating("D", 0, 2.5f);
     }
 
     private void spawner(GameObject gameObject)

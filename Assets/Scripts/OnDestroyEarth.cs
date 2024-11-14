@@ -24,6 +24,7 @@ public class OnDestroyEarth : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            Time.timeScale = 0f;
             SceneManager.LoadScene("Game Over");
         }
 
